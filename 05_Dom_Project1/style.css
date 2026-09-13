@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. HTML & Body */
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: pink;
+    color: #333;
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+#box {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(0, 0, 255);
+    border-radius: 10%;
+    border: 6px solid white;
+
+    /*
+    A border is the line around an HTML element.
+    */
+
+}
+
+button {
+
+    padding: 10px 20px;
+    font-size: 20px;
+
+    /*
+    Padding is the space between an element's content and its border.
+    */
+}
+
+button:active {
+    scale: 0.95;
+}

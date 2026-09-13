@@ -1,0 +1,10 @@
+body {
+    background-color: yellow;
+}
+
+p {
+    font-size: 40px;
+    justify-content: center;
+    justify-items: auto;
+    margin: 40px;
+}

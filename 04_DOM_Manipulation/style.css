@@ -1,0 +1,58 @@
+/* 1. Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. HTML & Body */
+html {
+    font-size: 16px;
+}
+
+body {
+
+    background-color: pink;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 3. Images */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+
+
+#box {
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    font-size: 50px;
+    border-radius: 50%;
+    border: 6px solid black;
+}
+
+button {
+    background-color: yellow;
+    padding: 5px 15px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+
+#card {
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+h5 {
+    background-color: red;
+}
